@@ -1,0 +1,38 @@
+body {
+
+}
+
+input {
+    width: 30%;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+/* img {
+    width: 360px;
+    height: 360px;
+    margin: auto;
+} */
+
+.form-elements {
+    display: block;
+    margin: 12px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media all and (min-width: 600px){
+    section {
+        width: 40%;
+    }
+
+    /* img {
+        width: 480px;
+        height: 480px;
+    } */
+}
